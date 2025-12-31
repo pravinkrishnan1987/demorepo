@@ -1,6 +1,6 @@
 # Server Module Variables
-variable "Instance_name" {
- description = "Instance Name"
+variable "instance_name" {
+ description = "instance Name"
  default = ""
 }
 
@@ -9,8 +9,8 @@ variable "ami" {
   default = "ami-xxxx"
 }
 
-variable "Instance_type" {
-  description = "Instance Type"
+variable "instance_type" {
+  description = "instance Type"
 
 }
 
