@@ -1,20 +1,16 @@
 # Server Module Variables
-variables "instance_name" {
+variable "instance_name" {
  description = "Instance Name"
  default = ""
 }
 
 variable "ami" {
-  description = "Gowith you ami ID"
-  default = "ami-xxx"
+  description = "Go with you ami ID"
+  default = "ami-xxxx"
 }
 
-variable "Instance_type' {
+variable "Instance_type" {
   description = "Instance Type"
-}
 
-#variable "key" {
-  #description ="Go wuth you aws ketpair"
-  #default = "ami-xxxx"
-} 
+}
 
