@@ -1,6 +1,6 @@
 # Server Module Variables
 variable "instance_name" {
- description = "instance Name"
+ description = "instance new Name"
  default = ""
 }
 
